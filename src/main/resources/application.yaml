@@ -1,0 +1,21 @@
+# Spring Boot Application Configuration
+
+# Server settings
+server:
+  port: 8080
+
+# Database configuration
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: dbuser
+    password: dbpass
+    driver-class-name: org.postgresql.Driver
+
+# Logging configuration
+logging:
+  level:
+    root: info
+    org.springframework: info
+
+# Other application-specific configurations can be added here
